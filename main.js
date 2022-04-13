@@ -46,12 +46,37 @@ let browserOpenPromise = puppet.launch({
   })
   .then(function (){
       console.log("Successfully signed in linkedin!!!!");
-    //   setTimeout(function () {},6000);
     //   Now lets move to your profile page
-    let movedToProfilePagePromise = currentPage.click("a[id='ember605']");
+    let movedToProfilePagePromise = waitAndClick("a[class='ember-view block']");
     return movedToProfilePagePromise;
   })
 //   .then (function () {
 //       console.log("Moved to profile page succesfully!!!!!!");
 
 //   })
+
+
+// Function waitAndClick defination
+function waitAndClick(btnCss) {
+  // making a new promise here-> this function is not involve in chaining so we have to make a personal/local promise for it
+  let clickPromise = new Promise(function (resolve, reject) {
+    // waitForselector() is a function which will wait for the selector until the page gets load.
+    let waitForCss = currentPage.waitForSelector(btnCss);
+    waitForCss
+      .then(function () {
+        //  waiting is done now we have to click on the required button
+        console.log("button is found");
+        let clickedPromise = currentPage.click(btnCss);
+        return clickedPromise;
+      })
+      .then(function () {
+        console.log("Successfully clicked!!!!");
+        resolve();
+      })
+      .catch(function (err) {
+        console.log(err);
+        reject();
+      });
+  });
+  return clickPromise;
+}
