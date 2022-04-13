@@ -1,5 +1,5 @@
 const puppet = require("puppeteer");
-const credential = [`jatinbishtcodes2308@gmail.com`, `jatin2308`];
+// in credential make your own credential array an use it 
 const { post } = require("./post");
 let browserOpenPromise = puppet.launch({
   headless: false,
