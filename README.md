@@ -1,6 +1,10 @@
 # Linkedin_Automation-JB
 
 
+<div align = center>
+  <img src = "https://res.cloudinary.com/practicaldev/image/fetch/s--_RATvLqD--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://cdn-images-1.medium.com/max/1600/1*1hT23VteSYhRbOaUtCcuEg.gif" alt="">
+  </div>
+
 ## Feature of this project->
 
 - <img src ="https://img.shields.io/badge/1-Open Browser-brightgreen" alt="Open Browser">
