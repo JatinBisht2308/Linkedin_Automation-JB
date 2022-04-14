@@ -1,11 +1,11 @@
-# Linkedin_Automation-JB
+# 🔥 🔥 Linkedin_Automation-JB 🔥 🔥 
 
-
+## 🎆🎆🎆🎆🎆Lets make human work a bit easier and automated. 🎆🎆🎆🎆🎆
 <div align = center>
   <img src = "https://res.cloudinary.com/practicaldev/image/fetch/s--_RATvLqD--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://cdn-images-1.medium.com/max/1600/1*1hT23VteSYhRbOaUtCcuEg.gif" alt="">
   </div>
 
-## Feature of this project->
+## 👾👾👾 Feature of this project 👾👾👾->
 
 - <img src ="https://img.shields.io/badge/1-Open Browser-brightgreen" alt="Open Browser">
 - <img src ="https://img.shields.io/badge/2-Sign in -orange" alt="">
@@ -16,7 +16,7 @@
 - <img src ="https://img.shields.io/badge/7-All automatically-success" alt="All automatically">
 
 
-## Tech Stack Used:
+## 👨‍💻 👨‍💻 👨‍💻 Tech Stack Used 👨‍💻 👨‍💻 👨‍💻:
 - <img src ="https://img.shields.io/badge/1-Java Script-brightgreen" alt="Java Script">
 - <img src ="https://img.shields.io/badge/2-Node.js-orange" alt="Node.js">
 - <img src ="https://img.shields.io/badge/3-npm modules-red" alt="npm modules">
